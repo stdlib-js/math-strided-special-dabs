@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-dabs@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-strided-special-dabs/tags). For example,
+
+```javascript
 import dabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-dabs@v0.1.0-deno/mod.js';
 ```
 
@@ -162,7 +167,7 @@ dabs.ndarray( N, x, 2, 1, y, -1, y.length-1 );
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-dabs@v0.1.0-deno/mod.js';
+import dabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-dabs@deno/mod.js';
 
 var x = new Float64Array( 10 );
 var y = new Float64Array( 10 );
