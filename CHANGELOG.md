@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-11)
+## Unreleased (2026-04-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`05b2f70`](https://github.com/stdlib-js/stdlib/commit/05b2f70915fae6980da8ed1fca63caa8af7e67ec) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dabs` [(#11655)](https://github.com/stdlib-js/stdlib/pull/11655) _(by Uday Kakade)_
 -   [`be9f744`](https://github.com/stdlib-js/stdlib/commit/be9f7445e37168f514e83041e80e9495c49fd9d9) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11362)](https://github.com/stdlib-js/stdlib/pull/11362) _(by Karan Anand)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Uday Kakade
 
 </section>
 
